@@ -4,7 +4,7 @@ Asynchronize
 
 Make synchronous functions look asynchronous.
 
-**Current Version:** *0.0.0*  
+**Current Version:** *1.0.0*  
 **Build Status:** [![Build Status][travis-status]][travis]  
 **Node Support:** *0.6, 0.8, 0.10*  
 **Browser Support:** *Android Browser 2.2–4.2, Firefox 3.6, Firefox 4–19, Google Chrome 14–26, Internet Explorer 6–10, Mobile Safari iOS 3–6, Opera 12.10, Safari 5–6*
