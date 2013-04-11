@@ -30,7 +30,7 @@
         var bundler = browserify();
         bundler.add(root + '/test/unit/asynchronize.js');
         res.type('js');
-        bundler.bundle(function (err, src) {
+        bundler.bundle({insertGlobals: false, detectGlobals: false}, function (err, src) {
             res.send(src);
         });
     });
