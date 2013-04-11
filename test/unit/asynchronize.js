@@ -1,6 +1,6 @@
 /*jshint maxlen: 200 */
 /*global beforeEach, describe, it */
-(function (process) {
+(function () {
     'use strict';
 
     // Dependencies
@@ -8,7 +8,11 @@
     var sinon = require('sinon');
 
     // process.nextTick polyfill for browsers
-    var nextTick = process && process.nextTick || setTimeout;
+    var nextTick = (
+        typeof process !== 'undefined' &&
+        process.platform &&
+        process.nextTick
+    ) || setTimeout;
 
     // Test subject
     var asynchronize = require('../../lib/asynchronize');
@@ -91,4 +95,4 @@
 
     });
 
-} (process));
+} ());
