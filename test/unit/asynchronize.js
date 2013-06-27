@@ -3,22 +3,18 @@
 (function () {
     'use strict';
 
-    // Dependencies
     var assert = require('proclaim');
     var sinon = require('sinon');
 
-    // process.nextTick polyfill for browsers
+    // Compat function: process.nextTick/setTimeout
     var nextTick = (
         typeof process !== 'undefined' &&
         process.platform &&
         process.nextTick
     ) || setTimeout;
 
-    // Test subject
-    var asynchronize = require('../../lib/asynchronize');
-
-    // Tests
     describe('asynchronize()', function () {
+        var asynchronize = require('../../lib/asynchronize');
 
         it('should throw when called with a non-function argument', function () {
             assert.throws(function () {
