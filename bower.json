@@ -1,0 +1,14 @@
+{
+    "name": "asynchronize",
+    "version": "1.1.0",
+
+    "description": "Make synchronous functions look asynchronous",
+    "keywords": [ "async", "flow" ],
+    "author": "Rowan Manning (http://rowanmanning.co.uk/)",
+    "license": "MIT",
+
+    "homepage": "https://github.com/rowanmanning/asynchronize",
+    "bugs": "https://github.com/rowanmanning/asynchronize/issues",
+
+    "main": "./lib/asynchronize.js"
+}

@@ -40,7 +40,12 @@ You can use Asynchronize on the server side with [Node.js][node] and npm:
 $ npm install asynchronize
 ```
 
-On the client side, you can either install Asynchronize through [Component][component]:
+On the client side, you can either install Asynchronize through [Bower][bower]/[Component][component]:
+
+```sh
+$ bower install asynchronize
+$ component install rowanmanning/asynchronize
+```
 
 ```sh
 $ component install rowanmanning/asynchronize
@@ -138,6 +143,7 @@ Asynchronize is licensed under the [MIT][mit] license.
 
 
 [async]: https://github.com/caolan/async
+[bower]: http://bower.io/
 [component]: https://github.com/component/component
 [make]: http://gnuwin32.sourceforge.net/packages/make.htm
 [mit]: http://opensource.org/licenses/mit-license.php
