@@ -4,6 +4,8 @@ Asynchronize
 
 Make synchronous functions look asynchronous.
 
+**:bangbang: NOTE: This project is no longer being maintained. If you're interested in taking over maintenance of this repo, please contact me.**
+
 **Current Version:** *1.2.0*  
 **Build Status:** [![Build Status][travis-status]][travis]  
 **Node Support:** *0.6, 0.8, 0.10*  
